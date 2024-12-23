@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1FB4152CB8600A00854ABA /* Array+Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3B02CB8600A00854ABA /* Array+Unique.swift */; };
+		8A1FB4172CB8600A00854ABA /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3B22CB8600A00854ABA /* AVCaptureDevice+Extension.swift */; };
+		8A1FB4192CB8600A00854ABA /* FourCharCode+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3B42CB8600A00854ABA /* FourCharCode+String.swift */; };
+		8A1FB41C2CB8600A00854ABA /* AVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3BB2CB8600A00854ABA /* AVManager.swift */; };
+		8A1FB41E2CB8600A00854ABA /* ExtensionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3BD2CB8600A00854ABA /* ExtensionManager.swift */; };
+		8A1FB4202CB8600A00854ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1FB3C12CB8600A00854ABA /* Assets.xcassets */; };
+		8A1FB4212CB8600A00854ABA /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3C22CB8600A00854ABA /* DeepLabV3.mlmodel */; };
+		8A1FB4232CB8600A00854ABA /* CameraSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3C52CB8600A00854ABA /* CameraSelectionView.swift */; };
+		8A1FB4272CB8600A00854ABA /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3CB2CB8600A00854ABA /* PrimaryButton.swift */; };
+		8A1FB4282CB8600A00854ABA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3CC2CB8600A00854ABA /* RoundButton.swift */; };
+		8A1FB4292CB8600A00854ABA /* UploadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3CD2CB8600A00854ABA /* UploadButton.swift */; };
+		8A1FB42A2CB8600A00854ABA /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3CF2CB8600A00854ABA /* DropdownView.swift */; };
+		8A1FB4302CB8600A00854ABA /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3D52CB8600A00854ABA /* VideoPreviewView.swift */; };
+		8A1FB4312CB8600A00854ABA /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3D72CB8600A00854ABA /* Icons.swift */; };
+		8A1FB4322CB8600A00854ABA /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3D82CB8600A00854ABA /* Metrics.swift */; };
+		8A1FB4332CB8600A00854ABA /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3D92CB8600A00854ABA /* Strings.swift */; };
+		8A1FB4342CB8600A00854ABA /* GreenScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3DB2CB8600A00854ABA /* GreenScreenManager.swift */; };
+		8A1FB4352CB8600A00854ABA /* GreenScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3DC2CB8600A00854ABA /* GreenScreenView.swift */; };
+		8A1FB4362CB8600A00854ABA /* VirtualBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3DD2CB8600A00854ABA /* VirtualBackgroundView.swift */; };
+		8A1FB4382CB8600A00854ABA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3E12CB8600A00854ABA /* MainView.swift */; };
+		8A1FB45C2CB8600A00854ABA /* iViCAMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB4132CB8600A00854ABA /* iViCAMApp.swift */; };
+		8A1FB4642CB8619C00854ABA /* iViCAMMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB4632CB8619C00854ABA /* iViCAMMobileApp.swift */; };
+		8A1FB4742CB8650700854ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1FB3C12CB8600A00854ABA /* Assets.xcassets */; };
+		8A1FB4772CB867F200854ABA /* CameraSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3C52CB8600A00854ABA /* CameraSelectionView.swift */; };
+		8A1FB4792CB867F800854ABA /* GreenScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3DC2CB8600A00854ABA /* GreenScreenView.swift */; };
+		8A1FB47A2CB867FB00854ABA /* GreenScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3DB2CB8600A00854ABA /* GreenScreenManager.swift */; };
+		8A1FB47B2CB867FF00854ABA /* VirtualBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3DD2CB8600A00854ABA /* VirtualBackgroundView.swift */; };
+		8A1FB4822CB8685C00854ABA /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3D72CB8600A00854ABA /* Icons.swift */; };
+		8A1FB4832CB8685E00854ABA /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3D82CB8600A00854ABA /* Metrics.swift */; };
+		8A1FB4842CB8686100854ABA /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3D92CB8600A00854ABA /* Strings.swift */; };
+		8A1FB4852CB8686500854ABA /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3CF2CB8600A00854ABA /* DropdownView.swift */; };
+		8A1FB48D2CB8687A00854ABA /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3CB2CB8600A00854ABA /* PrimaryButton.swift */; };
+		8A1FB48E2CB8687C00854ABA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3CC2CB8600A00854ABA /* RoundButton.swift */; };
+		8A1FB48F2CB8687E00854ABA /* UploadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3CD2CB8600A00854ABA /* UploadButton.swift */; };
+		8A1FB4922CB86C4A00854ABA /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3C22CB8600A00854ABA /* DeepLabV3.mlmodel */; };
+		8A1FB4972CB8769A00854ABA /* AVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3BB2CB8600A00854ABA /* AVManager.swift */; };
+		8A1FB4982CB876AD00854ABA /* Array+Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3B02CB8600A00854ABA /* Array+Unique.swift */; };
+		8A1FB49A2CB876B300854ABA /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3B22CB8600A00854ABA /* AVCaptureDevice+Extension.swift */; };
+		8A1FB49C2CB876BB00854ABA /* FourCharCode+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3B42CB8600A00854ABA /* FourCharCode+String.swift */; };
+		8A1FB49E2CB87A0400854ABA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3E12CB8600A00854ABA /* MainView.swift */; };
+		8A1FB49F2CB87A8A00854ABA /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB3D52CB8600A00854ABA /* VideoPreviewView.swift */; };
+		8A1FB4A62CB8995A00854ABA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FB4A52CB8995A00854ABA /* ImagePicker.swift */; };
+		8A4463862CDD333000290069 /* VirtualCameraStreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4463852CDD333000290069 /* VirtualCameraStreamManager.swift */; };
+		8A69C4332CCDB0750023D69A /* VirtualCameraStreamSinkSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69C4322CCDB0750023D69A /* VirtualCameraStreamSinkSource.swift */; };
+		8A6B155E2CCD689B0086C246 /* com.myivi.GreenScreenCam.VirtualCamera.systemextension in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 8A6B15532CCD689B0086C246 /* com.myivi.GreenScreenCam.VirtualCamera.systemextension */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8A6B15682CCD68E80086C246 /* VirtualCameraProviderSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B15622CCD68E80086C246 /* VirtualCameraProviderSource.swift */; };
+		8A6B15692CCD68E80086C246 /* VirtualCameraDeviceSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B15642CCD68E80086C246 /* VirtualCameraDeviceSource.swift */; };
+		8A6B156B2CCD68E80086C246 /* VirtualCameraStreamSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B15662CCD68E80086C246 /* VirtualCameraStreamSource.swift */; };
+		8A6B156C2CCD68E80086C246 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B15672CCD68E80086C246 /* main.swift */; };
+		8A6B156E2CCD69080086C246 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B156D2CCD69080086C246 /* Identifiers.swift */; };
+		8A6B156F2CCD69080086C246 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B156D2CCD69080086C246 /* Identifiers.swift */; };
+		8A6B15702CCD69080086C246 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6B156D2CCD69080086C246 /* Identifiers.swift */; };
+		8A8DF43A2D08B3760076A0D6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DF4392D08B3760076A0D6 /* Colors.swift */; };
+		8A8DF43B2D08B3760076A0D6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DF4392D08B3760076A0D6 /* Colors.swift */; };
+		8A8DF4432D14C5BD0076A0D6 /* ExpandableMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DF4422D14C5BD0076A0D6 /* ExpandableMenuView.swift */; };
+		8A8DF4442D14C5BD0076A0D6 /* ExpandableMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DF4422D14C5BD0076A0D6 /* ExpandableMenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A6B155B2CCD689B0086C246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A95D25C2ADD4F9C00BB0C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6B15522CCD689B0086C246;
+			remoteInfo = VirtualCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A6B155D2CCD689B0086C246 /* Embed System Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SYSTEM_EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				8A6B155E2CCD689B0086C246 /* com.myivi.GreenScreenCam.VirtualCamera.systemextension in Embed System Extensions */,
+			);
+			name = "Embed System Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A1FB3B02CB8600A00854ABA /* Array+Unique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Unique.swift"; sourceTree = "<group>"; };
+		8A1FB3B22CB8600A00854ABA /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
+		8A1FB3B42CB8600A00854ABA /* FourCharCode+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FourCharCode+String.swift"; sourceTree = "<group>"; };
+		8A1FB3BB2CB8600A00854ABA /* AVManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVManager.swift; sourceTree = "<group>"; };
+		8A1FB3BD2CB8600A00854ABA /* ExtensionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionManager.swift; sourceTree = "<group>"; };
+		8A1FB3C12CB8600A00854ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A1FB3C22CB8600A00854ABA /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		8A1FB3C52CB8600A00854ABA /* CameraSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraSelectionView.swift; sourceTree = "<group>"; };
+		8A1FB3CB2CB8600A00854ABA /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		8A1FB3CC2CB8600A00854ABA /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		8A1FB3CD2CB8600A00854ABA /* UploadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadButton.swift; sourceTree = "<group>"; };
+		8A1FB3CF2CB8600A00854ABA /* DropdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		8A1FB3D52CB8600A00854ABA /* VideoPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
+		8A1FB3D72CB8600A00854ABA /* Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		8A1FB3D82CB8600A00854ABA /* Metrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
+		8A1FB3D92CB8600A00854ABA /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		8A1FB3DB2CB8600A00854ABA /* GreenScreenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenScreenManager.swift; sourceTree = "<group>"; };
+		8A1FB3DC2CB8600A00854ABA /* GreenScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenScreenView.swift; sourceTree = "<group>"; };
+		8A1FB3DD2CB8600A00854ABA /* VirtualBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualBackgroundView.swift; sourceTree = "<group>"; };
+		8A1FB3E12CB8600A00854ABA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8A1FB4112CB8600A00854ABA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1FB4122CB8600A00854ABA /* iViCAM.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = iViCAM.entitlements; sourceTree = "<group>"; };
+		8A1FB4132CB8600A00854ABA /* iViCAMApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iViCAMApp.swift; sourceTree = "<group>"; };
+		8A1FB4612CB8619C00854ABA /* GreenScreenCam Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GreenScreenCam Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1FB4632CB8619C00854ABA /* iViCAMMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iViCAMMobileApp.swift; sourceTree = "<group>"; };
+		8A1FB4A52CB8995A00854ABA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8A4463852CDD333000290069 /* VirtualCameraStreamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualCameraStreamManager.swift; sourceTree = "<group>"; };
+		8A69C4322CCDB0750023D69A /* VirtualCameraStreamSinkSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualCameraStreamSinkSource.swift; sourceTree = "<group>"; };
+		8A6B15532CCD689B0086C246 /* com.myivi.GreenScreenCam.VirtualCamera.systemextension */ = {isa = PBXFileReference; explicitFileType = "wrapper.system-extension"; includeInIndex = 0; path = com.myivi.GreenScreenCam.VirtualCamera.systemextension; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6B15622CCD68E80086C246 /* VirtualCameraProviderSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCameraProviderSource.swift; sourceTree = "<group>"; };
+		8A6B15632CCD68E80086C246 /* VirtualCamera.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = VirtualCamera.entitlements; sourceTree = "<group>"; };
+		8A6B15642CCD68E80086C246 /* VirtualCameraDeviceSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCameraDeviceSource.swift; sourceTree = "<group>"; };
+		8A6B15652CCD68E80086C246 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6B15662CCD68E80086C246 /* VirtualCameraStreamSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualCameraStreamSource.swift; sourceTree = "<group>"; };
+		8A6B15672CCD68E80086C246 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8A6B156D2CCD69080086C246 /* Identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
+		8A8DF4392D08B3760076A0D6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8A8DF4422D14C5BD0076A0D6 /* ExpandableMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableMenuView.swift; sourceTree = "<group>"; };
+		8A95D2642ADD4F9C00BB0C64 /* GreenScreenCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenScreenCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1FB45E2CB8619C00854ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6B15502CCD689B0086C246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A95D2612ADD4F9C00BB0C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1FB3B72CB8600A00854ABA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3B02CB8600A00854ABA /* Array+Unique.swift */,
+				8A1FB3B22CB8600A00854ABA /* AVCaptureDevice+Extension.swift */,
+				8A1FB3B42CB8600A00854ABA /* FourCharCode+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8A1FB3BE2CB8600A00854ABA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3BB2CB8600A00854ABA /* AVManager.swift */,
+				8A1FB3DB2CB8600A00854ABA /* GreenScreenManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8A1FB3C42CB8600A00854ABA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3C22CB8600A00854ABA /* DeepLabV3.mlmodel */,
+				8A1FB3C12CB8600A00854ABA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A1FB3C62CB8600A00854ABA /* Camera Selection */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3C52CB8600A00854ABA /* CameraSelectionView.swift */,
+			);
+			path = "Camera Selection";
+			sourceTree = "<group>";
+		};
+		8A1FB3CE2CB8600A00854ABA /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3CB2CB8600A00854ABA /* PrimaryButton.swift */,
+				8A1FB3CC2CB8600A00854ABA /* RoundButton.swift */,
+				8A1FB3CD2CB8600A00854ABA /* UploadButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		8A1FB3D62CB8600A00854ABA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3CE2CB8600A00854ABA /* Buttons */,
+				8A1FB3CF2CB8600A00854ABA /* DropdownView.swift */,
+				8A8DF4422D14C5BD0076A0D6 /* ExpandableMenuView.swift */,
+				8A1FB3D52CB8600A00854ABA /* VideoPreviewView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8A1FB3DA2CB8600A00854ABA /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3D62CB8600A00854ABA /* Components */,
+				8A1FB3D72CB8600A00854ABA /* Icons.swift */,
+				8A1FB3D82CB8600A00854ABA /* Metrics.swift */,
+				8A1FB3D92CB8600A00854ABA /* Strings.swift */,
+				8A8DF4392D08B3760076A0D6 /* Colors.swift */,
+			);
+			path = "Design System";
+			sourceTree = "<group>";
+		};
+		8A1FB3DE2CB8600A00854ABA /* Green Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3DC2CB8600A00854ABA /* GreenScreenView.swift */,
+				8A1FB3DD2CB8600A00854ABA /* VirtualBackgroundView.swift */,
+			);
+			path = "Green Screen";
+			sourceTree = "<group>";
+		};
+		8A1FB3E22CB8600A00854ABA /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3E12CB8600A00854ABA /* MainView.swift */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		8A1FB3E72CB8600A00854ABA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB4812CB8684E00854ABA /* Screens */,
+				8A1FB3DA2CB8600A00854ABA /* Design System */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8A1FB4142CB8600A00854ABA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB4722CB861EA00854ABA /* Shared */,
+				8A1FB4622CB8619C00854ABA /* iOS */,
+				8A1FB46F2CB861BB00854ABA /* macOS */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8A1FB4622CB8619C00854ABA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB4632CB8619C00854ABA /* iViCAMMobileApp.swift */,
+				8A1FB4A52CB8995A00854ABA /* ImagePicker.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8A1FB46F2CB861BB00854ABA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A44637F2CDA610100290069 /* Managers */,
+				8A1FB4122CB8600A00854ABA /* iViCAM.entitlements */,
+				8A1FB4132CB8600A00854ABA /* iViCAMApp.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		8A1FB4722CB861EA00854ABA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB4112CB8600A00854ABA /* Info.plist */,
+				8A6B156D2CCD69080086C246 /* Identifiers.swift */,
+				8A1FB3BE2CB8600A00854ABA /* Managers */,
+				8A1FB3E72CB8600A00854ABA /* UI */,
+				8A1FB3C42CB8600A00854ABA /* Resources */,
+				8A1FB3B72CB8600A00854ABA /* Extensions */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8A1FB4812CB8684E00854ABA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3C62CB8600A00854ABA /* Camera Selection */,
+				8A1FB3DE2CB8600A00854ABA /* Green Screen */,
+				8A1FB3E22CB8600A00854ABA /* Main Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8A444B4D2BD90A1C00250990 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A44637F2CDA610100290069 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8A1FB3BD2CB8600A00854ABA /* ExtensionManager.swift */,
+				8A4463852CDD333000290069 /* VirtualCameraStreamManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8A6B15542CCD689B0086C246 /* VirtualCamera */ = {
+			isa = PBXGroup;
+			children = (
+				8A6B15652CCD68E80086C246 /* Info.plist */,
+				8A6B15632CCD68E80086C246 /* VirtualCamera.entitlements */,
+				8A6B15672CCD68E80086C246 /* main.swift */,
+				8A6B15642CCD68E80086C246 /* VirtualCameraDeviceSource.swift */,
+				8A6B15622CCD68E80086C246 /* VirtualCameraProviderSource.swift */,
+				8A6B15662CCD68E80086C246 /* VirtualCameraStreamSource.swift */,
+				8A69C4322CCDB0750023D69A /* VirtualCameraStreamSinkSource.swift */,
+			);
+			path = VirtualCamera;
+			sourceTree = "<group>";
+		};
+		8A95D25B2ADD4F9C00BB0C64 = {
+			isa = PBXGroup;
+			children = (
+				8A1FB4142CB8600A00854ABA /* Sources */,
+				8A6B15542CCD689B0086C246 /* VirtualCamera */,
+				8A95D2652ADD4F9C00BB0C64 /* Products */,
+				8A444B4D2BD90A1C00250990 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A95D2652ADD4F9C00BB0C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A95D2642ADD4F9C00BB0C64 /* GreenScreenCam.app */,
+				8A1FB4612CB8619C00854ABA /* GreenScreenCam Mobile.app */,
+				8A6B15532CCD689B0086C246 /* com.myivi.GreenScreenCam.VirtualCamera.systemextension */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1FB4602CB8619C00854ABA /* GreenScreenCam Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1FB46C2CB8619E00854ABA /* Build configuration list for PBXNativeTarget "GreenScreenCam Mobile" */;
+			buildPhases = (
+				8A1FB45D2CB8619C00854ABA /* Sources */,
+				8A1FB45E2CB8619C00854ABA /* Frameworks */,
+				8A1FB45F2CB8619C00854ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GreenScreenCam Mobile";
+			packageProductDependencies = (
+			);
+			productName = "iViCAM Mobile";
+			productReference = 8A1FB4612CB8619C00854ABA /* GreenScreenCam Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A6B15522CCD689B0086C246 /* VirtualCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6B15612CCD689B0086C246 /* Build configuration list for PBXNativeTarget "VirtualCamera" */;
+			buildPhases = (
+				8A6B154F2CCD689B0086C246 /* Sources */,
+				8A6B15502CCD689B0086C246 /* Frameworks */,
+				8A6B15512CCD689B0086C246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualCamera;
+			productName = VirtualCamera;
+			productReference = 8A6B15532CCD689B0086C246 /* com.myivi.GreenScreenCam.VirtualCamera.systemextension */;
+			productType = "com.apple.product-type.system-extension";
+		};
+		8A95D2632ADD4F9C00BB0C64 /* GreenScreenCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A95D2732ADD4F9D00BB0C64 /* Build configuration list for PBXNativeTarget "GreenScreenCam" */;
+			buildPhases = (
+				8A95D2602ADD4F9C00BB0C64 /* Sources */,
+				8A95D2612ADD4F9C00BB0C64 /* Frameworks */,
+				8A95D2622ADD4F9C00BB0C64 /* Resources */,
+				8A6B155D2CCD689B0086C246 /* Embed System Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6B155C2CCD689B0086C246 /* PBXTargetDependency */,
+			);
+			name = GreenScreenCam;
+			packageProductDependencies = (
+			);
+			productName = Webcam;
+			productReference = 8A95D2642ADD4F9C00BB0C64 /* GreenScreenCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A95D25C2ADD4F9C00BB0C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8A1FB4602CB8619C00854ABA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8A6B15522CCD689B0086C246 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					8A95D2632ADD4F9C00BB0C64 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8A95D25F2ADD4F9C00BB0C64 /* Build configuration list for PBXProject "GreenScreenCam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A95D25B2ADD4F9C00BB0C64;
+			packageReferences = (
+				8A903E522CA606EA002B82EB /* XCRemoteSwiftPackageReference "Zip" */,
+			);
+			productRefGroup = 8A95D2652ADD4F9C00BB0C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A95D2632ADD4F9C00BB0C64 /* GreenScreenCam */,
+				8A1FB4602CB8619C00854ABA /* GreenScreenCam Mobile */,
+				8A6B15522CCD689B0086C246 /* VirtualCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1FB45F2CB8619C00854ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1FB4742CB8650700854ABA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6B15512CCD689B0086C246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A95D2622ADD4F9C00BB0C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1FB4202CB8600A00854ABA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1FB45D2CB8619C00854ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1FB48E2CB8687C00854ABA /* RoundButton.swift in Sources */,
+				8A8DF43B2D08B3760076A0D6 /* Colors.swift in Sources */,
+				8A1FB48F2CB8687E00854ABA /* UploadButton.swift in Sources */,
+				8A1FB4A62CB8995A00854ABA /* ImagePicker.swift in Sources */,
+				8A1FB4642CB8619C00854ABA /* iViCAMMobileApp.swift in Sources */,
+				8A1FB4852CB8686500854ABA /* DropdownView.swift in Sources */,
+				8A8DF4442D14C5BD0076A0D6 /* ExpandableMenuView.swift in Sources */,
+				8A1FB49E2CB87A0400854ABA /* MainView.swift in Sources */,
+				8A1FB49C2CB876BB00854ABA /* FourCharCode+String.swift in Sources */,
+				8A1FB49F2CB87A8A00854ABA /* VideoPreviewView.swift in Sources */,
+				8A1FB4792CB867F800854ABA /* GreenScreenView.swift in Sources */,
+				8A1FB4772CB867F200854ABA /* CameraSelectionView.swift in Sources */,
+				8A1FB4822CB8685C00854ABA /* Icons.swift in Sources */,
+				8A1FB4972CB8769A00854ABA /* AVManager.swift in Sources */,
+				8A1FB48D2CB8687A00854ABA /* PrimaryButton.swift in Sources */,
+				8A1FB4842CB8686100854ABA /* Strings.swift in Sources */,
+				8A6B156F2CCD69080086C246 /* Identifiers.swift in Sources */,
+				8A1FB4982CB876AD00854ABA /* Array+Unique.swift in Sources */,
+				8A1FB49A2CB876B300854ABA /* AVCaptureDevice+Extension.swift in Sources */,
+				8A1FB47A2CB867FB00854ABA /* GreenScreenManager.swift in Sources */,
+				8A1FB47B2CB867FF00854ABA /* VirtualBackgroundView.swift in Sources */,
+				8A1FB4922CB86C4A00854ABA /* DeepLabV3.mlmodel in Sources */,
+				8A1FB4832CB8685E00854ABA /* Metrics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6B154F2CCD689B0086C246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A69C4332CCDB0750023D69A /* VirtualCameraStreamSinkSource.swift in Sources */,
+				8A6B15682CCD68E80086C246 /* VirtualCameraProviderSource.swift in Sources */,
+				8A6B15692CCD68E80086C246 /* VirtualCameraDeviceSource.swift in Sources */,
+				8A6B156C2CCD68E80086C246 /* main.swift in Sources */,
+				8A6B15702CCD69080086C246 /* Identifiers.swift in Sources */,
+				8A6B156B2CCD68E80086C246 /* VirtualCameraStreamSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A95D2602ADD4F9C00BB0C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1FB41E2CB8600A00854ABA /* ExtensionManager.swift in Sources */,
+				8A1FB4382CB8600A00854ABA /* MainView.swift in Sources */,
+				8A8DF4432D14C5BD0076A0D6 /* ExpandableMenuView.swift in Sources */,
+				8A1FB4332CB8600A00854ABA /* Strings.swift in Sources */,
+				8A1FB4362CB8600A00854ABA /* VirtualBackgroundView.swift in Sources */,
+				8A1FB42A2CB8600A00854ABA /* DropdownView.swift in Sources */,
+				8A1FB4172CB8600A00854ABA /* AVCaptureDevice+Extension.swift in Sources */,
+				8A8DF43A2D08B3760076A0D6 /* Colors.swift in Sources */,
+				8A1FB41C2CB8600A00854ABA /* AVManager.swift in Sources */,
+				8A6B156E2CCD69080086C246 /* Identifiers.swift in Sources */,
+				8A1FB4312CB8600A00854ABA /* Icons.swift in Sources */,
+				8A1FB4212CB8600A00854ABA /* DeepLabV3.mlmodel in Sources */,
+				8A1FB4322CB8600A00854ABA /* Metrics.swift in Sources */,
+				8A1FB4282CB8600A00854ABA /* RoundButton.swift in Sources */,
+				8A1FB4342CB8600A00854ABA /* GreenScreenManager.swift in Sources */,
+				8A1FB4302CB8600A00854ABA /* VideoPreviewView.swift in Sources */,
+				8A1FB4352CB8600A00854ABA /* GreenScreenView.swift in Sources */,
+				8A1FB4192CB8600A00854ABA /* FourCharCode+String.swift in Sources */,
+				8A1FB4232CB8600A00854ABA /* CameraSelectionView.swift in Sources */,
+				8A1FB4152CB8600A00854ABA /* Array+Unique.swift in Sources */,
+				8A1FB45C2CB8600A00854ABA /* iViCAMApp.swift in Sources */,
+				8A1FB4272CB8600A00854ABA /* PrimaryButton.swift in Sources */,
+				8A1FB4292CB8600A00854ABA /* UploadButton.swift in Sources */,
+				8A4463862CDD333000290069 /* VirtualCameraStreamManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A6B155C2CCD689B0086C246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6B15522CCD689B0086C246 /* VirtualCamera */;
+			targetProxy = 8A6B155B2CCD689B0086C246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A1FB46D2CB8619E00854ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = H44389JMW4;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sources/Shared/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iViCAM;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for video calls and conferencing.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "We need access to your Downloads folder in order to save captured photos and videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for audio calls and conferencing.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorypiacek.GreenScreenCam.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8A1FB46E2CB8619E00854ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = H44389JMW4;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sources/Shared/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iViCAM;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for video calls and conferencing.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "We need access to your Downloads folder in order to save captured photos and videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for audio calls and conferencing.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorypiacek.GreenScreenCam.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A6B155F2CCD689B0086C246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VirtualCamera/VirtualCamera.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = H44389JMW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualCamera/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualCamera;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "\"We need to install a system extension to share your video stream with other apps\"";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "$(APP_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorypiacek.GreenScreenCam.VirtualCamera;
+				PRODUCT_NAME = com.myivi.GreenScreenCam.VirtualCamera;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A6B15602CCD689B0086C246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VirtualCamera/VirtualCamera.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = H44389JMW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualCamera/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VirtualCamera;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "\"We need to install a system extension to share your video stream with other apps\"";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "$(APP_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorypiacek.GreenScreenCam.VirtualCamera;
+				PRODUCT_NAME = com.myivi.GreenScreenCam.VirtualCamera;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8A95D2712ADD4F9D00BB0C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		8A95D2722ADD4F9D00BB0C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		8A95D2742ADD4F9D00BB0C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sources/macOS/iViCAM.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = H44389JMW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sources/Shared/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iViCAM;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for video calls and conferencing.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "We need access to your Downloads folder in order to save captured photos and videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for audio calls and conferencing.";
+				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "We need to install a system extension to share your video stream with other apps";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "$(APP_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorypiacek.GreenScreenCam.macOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A95D2752ADD4F9D00BB0C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sources/macOS/iViCAM.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = H44389JMW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sources/Shared/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iViCAM;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for video calls and conferencing.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "We need access to your Downloads folder in order to save captured photos and videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for audio calls and conferencing.";
+				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "We need to install a system extension to share your video stream with other apps";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "$(APP_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorypiacek.GreenScreenCam.macOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1FB46C2CB8619E00854ABA /* Build configuration list for PBXNativeTarget "GreenScreenCam Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1FB46D2CB8619E00854ABA /* Debug */,
+				8A1FB46E2CB8619E00854ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6B15612CCD689B0086C246 /* Build configuration list for PBXNativeTarget "VirtualCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6B155F2CCD689B0086C246 /* Debug */,
+				8A6B15602CCD689B0086C246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A95D25F2ADD4F9C00BB0C64 /* Build configuration list for PBXProject "GreenScreenCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A95D2712ADD4F9D00BB0C64 /* Debug */,
+				8A95D2722ADD4F9D00BB0C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A95D2732ADD4F9D00BB0C64 /* Build configuration list for PBXNativeTarget "GreenScreenCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A95D2742ADD4F9D00BB0C64 /* Debug */,
+				8A95D2752ADD4F9D00BB0C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8A903E522CA606EA002B82EB /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 8A95D25C2ADD4F9C00BB0C64 /* Project object */;
+}
